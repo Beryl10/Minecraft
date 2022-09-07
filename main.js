@@ -46,7 +46,7 @@ function my_keydown(e)
 {
     keyPressed = e.keyCode;
     console.log(keyPressed);
-    if(e.shiftkey && keyPressed == '80')
+    if(e.shiftKey && keyPressed == '80')
     {
         console.log("p and shift pressed together");
         block_width = block_width + 10;
@@ -54,7 +54,7 @@ function my_keydown(e)
         document.getElementById("current_width").innerHTML = block_width;
         document.getElementById("current_height").innerHTML = block_height;
     }
-    if(e.shiftkey && keyPressed == '77')
+    if(e.shiftKey && keyPressed == '77')
     {
         console.log("m and shift pressed together");
         block_width = block_width - 10;
